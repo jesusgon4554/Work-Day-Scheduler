@@ -1,17 +1,14 @@
-import moment from 'moment';
-
-const moment = require("./moment");
-
 //insert date
 var day = document.getElementById("currentDay");
-var now = moment().format();
-day.innerHTML(now);
-
-// var saveFive = document.getElementById("hourFive");
+var now = moment().format('dddd');
+day.innerHTML = now
+day.innerHTML = "<p>" + now + "<p>"
 // var = document.getElementsbyClass("");
 //save
+var saveFive = document.getElementById("hourFive");
 
-$("#hourFive").on("click", function(){
+$("#hourFive").on("click", function(event){
+    event.preventDefault();
     var SaveBtn = document.getElementsById("hourFive");
     localStorage.setItem("task", SaveBtn.inputValue());
 })    
