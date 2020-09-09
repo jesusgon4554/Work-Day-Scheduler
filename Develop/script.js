@@ -1,6 +1,6 @@
 //insert date
 var day = document.getElementById("currentDay");
-var now = moment().format('dddd');
+var now = moment().format("MMMM Do YYYY");
 day.innerHTML = now
 day.innerHTML = "<p>" + now + "<p>"
 // var = document.getElementsbyClass("");
