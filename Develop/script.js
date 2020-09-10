@@ -1,6 +1,6 @@
 //insert date
 
-var input = 
+
 
 window.onload = function(){
     var day = document.getElementById("currentDay");
@@ -98,4 +98,15 @@ $("#saveBtn").on("click",function(){
 
 });
 
-//colors
+//colors with hours
+var hour = moment().hour()
+var hour5 = document.getElementsByClassName("hour5")
+hour5 = moment().hour(5)
+
+    // if(hour === hour5){
+    //     hour5.style.backgroundColor = "green";
+    // }else if(hour < hour5){
+    //     hour5.style.backgroundColor = "blue";
+    // }else{
+    //     hour5.style.backgroundColor = "red";
+    // }
