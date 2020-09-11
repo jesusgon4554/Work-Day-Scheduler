@@ -9,8 +9,9 @@ past for pink
 present in green 
 future in yellow
 
-////////////
+
 links for page are
 
+https://github.com/jesusgon4554/Work-Day-Scheduler.git
 
-
+https://jesusgon4554.github.io/Work-Day-Scheduler/
