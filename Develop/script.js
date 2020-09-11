@@ -104,117 +104,117 @@ console.log(now);
 console.log(now.hour());
 
     if(now.hour() === 5){
-        $(".hour5").css("background-color", "green")
-    }else if(now.hour() < 5){
-        $(".hour5").css("background-color", "blue")
+        $(".hour5").css("background-color", "lightgreen")
+    }else if(now.hour()< 5){
+        $(".hour5").css("background-color", "lightyellow")
     }else{
-        $(".hour5").css("background-color", "red")
+        $(".hour5").css("background-color", "pink")
     }
 
 $(".hour6").attr("data-time")
 
     if(now.hour() === 6){
-        $(".hour6").css("background-color", "green")
-    }else if(now.hour() < 6){
-        $(".hour6").css("background-color", "blue")
+        $(".hour6").css("background-color", "lightgreen")
+    }else if(now.hour()< 6){
+        $(".hour6").css("background-color", "lightyellow")
     }else{
-        $(".hour6").css("background-color", "red")
+        $(".hour6").css("background-color", "pink")
     }
 $(".hour7").attr("data-time")
     if(now.hour() === 7){
-        $(".hour7").css("background-color", "green")
-    }else if(now.hour() < 7){
-        $(".hour7").css("background-color", "blue")
+        $(".hour7").css("background-color", "lightgreen")
+    }else if(now.hour()< 7){
+        $(".hour7").css("background-color", "lightyellow")
     }else{
-        $(".hour7").css("background-color", "red")
+        $(".hour7").css("background-color", "pink")
     }
 
 $(".hour8").attr("data-time")
     if(now.hour() === 8){
-        $(".hour8").css("background-color", "green")
-    }else if(now.hour() < 8){
-        $(".hour8").css("background-color", "blue")
+        $(".hour8").css("background-color", "lightgreen")
+    }else if(now.hour()< 8){
+        $(".hour8").css("background-color", "lightyellow")
     }else{
-        $(".hour8").css("background-color", "red")
+        $(".hour8").css("background-color", "pink")
     }
 
 $(".hour9").attr("data-time")
     if(now.hour() === 9){
-        $(".hour9").css("background-color", "green")
-    }else if(now.hour() < 9){
-        $(".hour9").css("background-color", "blue")
+        $(".hour9").css("background-color", "lightgreen")
+    }else if(now.hour()< 9){
+        $(".hour9").css("background-color", "lightlightyellow")
     }else{
-        $(".hour9").css("background-color", "red")
+        $(".hour9").css("background-color", "pink")
     }
 
 $(".hour10").attr("data-time")
     if(now.hour() === 10){
-        $(".hour10").css("background-color", "green")
+        $(".hour10").css("background-color", "lightgreen")
     }else if(now.hour() < 10){
-        $(".hour10").css("background-color", "blue")
+        $(".hour10").css("background-color", "lightyellow")
     }else{
-        $(".hour10").css("background-color", "red")
+        $(".hour10").css("background-color", "pink")
     }
 
 $(".hour11").attr("data-time")
     if(now.hour() === 11){
-        $(".hour11").css("background-color", "green")
+        $(".hour11").css("background-color", "lightgreen")
     }else if(now.hour() < 11){
-        $(".hour11").css("background-color", "blue")
+        $(".hour11").css("background-color", "lightyellow")
     }else{
-        $(".hour11").css("background-color", "red")
+        $(".hour11").css("background-color", "pink")
     }
 
 $(".hour12").attr("data-time")
     if(now.hour() === 12){
-        $(".hour12").css("background-color", "green")
+        $(".hour12").css("background-color", "lightgreen")
     }else if(now.hour() < 12){
-        $(".hour12").css("background-color", "blue")
+        $(".hour12").css("background-color", "lightyellow")
     }else{
-        $(".hour12").css("background-color", "red")
+        $(".hour12").css("background-color", "pink")
     }
 
 $(".hour1").attr("data-time")
     if(now.hour() === 13){
-        $(".hour13").css("background-color", "green")
+        $(".hour13").css("background-color", "lightgreen")
     }else if(now.hour() < 13){
-        $(".hour13").css("background-color", "blue")
+        $(".hour13").css("background-color", "lightyellow")
     }else{
-        $(".hour13").css("background-color", "red")
+        $(".hour13").css("background-color", "pink")
     }
 
 $(".hour2").attr("data-time")
     if(now.hour() === 14){
-        $(".hour14").css("background-color", "green")
+        $(".hour14").css("background-color", "lightgreen")
     }else if(now.hour() < 14){
-        $(".hour14").css("background-color", "blue")
+        $(".hour14").css("background-color", "lightyellow")
     }else{
-        $(".hour14").css("background-color", "red")
+        $(".hour14").css("background-color", "pink")
     }
 
 $(".hour3").attr("data-time")
     if(now.hour() === 15){
-        $(".hour15").css("background-color", "green")
+        $(".hour15").css("background-color", "lightgreen")
     }else if(now.hour() < 15){
-        $(".hour15").css("background-color", "blue")
+        $(".hour15").css("background-color", "lightyellow")
     }else{
-        $(".hour15").css("background-color", "red")
+        $(".hour15").css("background-color", "pink")
     }
 
 $(".hour4").attr("data-time")
     if(now.hour() === 16){
-        $(".hour16").css("background-color", "green")
+        $(".hour16").css("background-color", "lightgreen")
     }else if(now.hour() < 16){
-        $(".hour16").css("background-color", "blue")
+        $(".hour16").css("background-color", "lightyellow")
     }else{
-        $(".hour16").css("background-color", "red")
+        $(".hour16").css("background-color", "pink")
     }
 
 $(".hourpm").attr("data-time")
     if(now.hour() === 17){
-        $(".hour17").css("background-color", "green")
+        $(".hour17").css("background-color", "lightgreen")
     }else if(now.hour() < 17){
-        $(".hour17").css("background-color", "blue")
+        $(".hour17").css("background-color", "lightyellow")
     }else{
-        $(".hour17").css("background-color", "red")
+        $(".hour17").css("background-color", "pink")
     }
