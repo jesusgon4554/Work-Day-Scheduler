@@ -1,7 +1,4 @@
 //insert date
-
-
-
 window.onload = function(){
     var day = document.getElementById("currentDay");
     var now = moment().format("MMMM Do YYYY");
@@ -99,14 +96,125 @@ $("#saveBtn").on("click",function(){
 });
 
 //colors with hours
-var hour = moment().hour()
-var hour5 = document.getElementsByClassName("hour5")
-hour5 = moment().hour(5)
+// var hour = moment().hour()
 
-    // if(hour === hour5){
-    //     hour5.style.backgroundColor = "green";
-    // }else if(hour < hour5){
-    //     hour5.style.backgroundColor = "blue";
-    // }else{
-    //     hour5.style.backgroundColor = "red";
-    // }
+$(".hour5").attr("data-time")
+const now = moment();
+console.log(now);
+console.log(now.hour());
+
+    if(now.hour() === 5){
+        $(".hour5").css("background-color", "green")
+    }else if(now.hour() < 5){
+        $(".hour5").css("background-color", "blue")
+    }else{
+        $(".hour5").css("background-color", "red")
+    }
+
+$(".hour6").attr("data-time")
+
+    if(now.hour() === 6){
+        $(".hour6").css("background-color", "green")
+    }else if(now.hour() < 6){
+        $(".hour6").css("background-color", "blue")
+    }else{
+        $(".hour6").css("background-color", "red")
+    }
+$(".hour7").attr("data-time")
+    if(now.hour() === 7){
+        $(".hour7").css("background-color", "green")
+    }else if(now.hour() < 7){
+        $(".hour7").css("background-color", "blue")
+    }else{
+        $(".hour7").css("background-color", "red")
+    }
+
+$(".hour8").attr("data-time")
+    if(now.hour() === 8){
+        $(".hour8").css("background-color", "green")
+    }else if(now.hour() < 8){
+        $(".hour8").css("background-color", "blue")
+    }else{
+        $(".hour8").css("background-color", "red")
+    }
+
+$(".hour9").attr("data-time")
+    if(now.hour() === 9){
+        $(".hour9").css("background-color", "green")
+    }else if(now.hour() < 9){
+        $(".hour9").css("background-color", "blue")
+    }else{
+        $(".hour9").css("background-color", "red")
+    }
+
+$(".hour10").attr("data-time")
+    if(now.hour() === 10){
+        $(".hour10").css("background-color", "green")
+    }else if(now.hour() < 10){
+        $(".hour10").css("background-color", "blue")
+    }else{
+        $(".hour10").css("background-color", "red")
+    }
+
+$(".hour11").attr("data-time")
+    if(now.hour() === 11){
+        $(".hour11").css("background-color", "green")
+    }else if(now.hour() < 11){
+        $(".hour11").css("background-color", "blue")
+    }else{
+        $(".hour11").css("background-color", "red")
+    }
+
+$(".hour12").attr("data-time")
+    if(now.hour() === 12){
+        $(".hour12").css("background-color", "green")
+    }else if(now.hour() < 12){
+        $(".hour12").css("background-color", "blue")
+    }else{
+        $(".hour12").css("background-color", "red")
+    }
+
+$(".hour1").attr("data-time")
+    if(now.hour() === 13){
+        $(".hour13").css("background-color", "green")
+    }else if(now.hour() < 13){
+        $(".hour13").css("background-color", "blue")
+    }else{
+        $(".hour13").css("background-color", "red")
+    }
+
+$(".hour2").attr("data-time")
+    if(now.hour() === 14){
+        $(".hour14").css("background-color", "green")
+    }else if(now.hour() < 14){
+        $(".hour14").css("background-color", "blue")
+    }else{
+        $(".hour14").css("background-color", "red")
+    }
+
+$(".hour3").attr("data-time")
+    if(now.hour() === 15){
+        $(".hour15").css("background-color", "green")
+    }else if(now.hour() < 15){
+        $(".hour15").css("background-color", "blue")
+    }else{
+        $(".hour15").css("background-color", "red")
+    }
+
+$(".hour4").attr("data-time")
+    if(now.hour() === 16){
+        $(".hour16").css("background-color", "green")
+    }else if(now.hour() < 16){
+        $(".hour16").css("background-color", "blue")
+    }else{
+        $(".hour16").css("background-color", "red")
+    }
+
+$(".hourpm").attr("data-time")
+    if(now.hour() === 17){
+        $(".hour17").css("background-color", "green")
+    }else if(now.hour() < 17){
+        $(".hour17").css("background-color", "blue")
+    }else{
+        $(".hour17").css("background-color", "red")
+    }
